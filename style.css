@@ -504,3 +504,102 @@ section {
 .active-slide {
     background: #f83d04;
 }
+
+/* about us section */
+
+.about-us {
+    width: 90%;
+    margin-top: 150px;
+}
+
+.about-container {
+    padding-bottom: 100px;
+}
+
+.about-image-container {
+    margin-right: 20px;
+    position: relative;
+}
+
+.orange-div {
+    position: absolute;
+    width: 228px;
+    height: 170px;
+    background: #E95020;
+    position: absolute;
+    bottom: -50px;
+    right: -35px;
+    z-index: -1;
+}
+
+.about-us-desc {
+    width: 55%;
+    margin: auto;
+    align-items: flex-end;
+    text-align: right;
+    color: white;
+}
+
+.about-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+
+.learn-btn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    box-sizing: border-box;
+    background: #1B1B1B;
+    border: 2px solid #E95020;
+    border-radius: 10px;
+    padding: 20px 20px;
+    position: relative;
+    right: 50px;
+}
+
+.book-now-div {
+    background: black;
+    color: white;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #E95020;
+    position: relative;
+    bottom: -100px;
+}
+
+.book-question {
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 39px;
+}
+
+.book-btn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    border: 1px solid #FFFFFF;
+}
+
+/* footer section */
+
+.footer {
+    position: absolute;
+    width: 1513px;
+    height: 442.41px;
+    background: #E95020;
+}
