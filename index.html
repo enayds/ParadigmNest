@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParadigmNest</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand title_text white-text" href="#"><span class="orange_text">Paradigm</span>Nest.</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+    </header>
+
+    <!-- designing the hero banner section -->
+
+    <section>
+        <hr class="orange-line">
+        <div class="container d-flex">
+            <div class="left-container">
+                <h1 class="banner-text white-text h1">We're a <span class="underline-text"> digital <img src="images/wavvy-line.svg" alt="wavvy-line" class="wavvy-line"></span> agency.</h1>
+                <p class="summary-text white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia magnam quibusdam minus, natus accusantium tempora possimus corporis omnis deleniti soluta.</p>
+                <button type="button" class="btn started-btn">Getting Started</button>
+            </div>
+            <div class="right-container d-flex">
+                <img src="images/man_image.png" alt="man image" class="man-image">
+                <img src="images/Vector.svg" alt="shapes-image" class="shapes-image">
+                
+            </div>
+        </div>
+
+        <div class="service-card-container container d-flex flex-row justify-content-around">
+          
+          <!-- this is box1 -->
+          <div class="vision-card service-card">
+            <img src="images/vision.svg" alt="visio-image" class="vision-image-card">
+            
+            <div class="card-info">
+              <p class="card-title">Future Vision</p>
+              <hr class="white-underline">
+              <p class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci recusandae officia tempore minima facilis qui totam ducimus laborum molestias? Minus!</p>
+            </div>
+
+          </div>
+
+          <!-- this is box2 -->
+          <div class="vision-card service-card">
+            <img src="images/design.svg" alt="product image">
+            <div class="card-info">
+              <p class="card-title">Project Design</p>
+              <hr class="white-underline">
+              <p class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci recusandae officia tempore minima facilis qui totam ducimus laborum molestias? Minus!</p>
+            </div>
+
+          </div>
+
+          <!-- this is box3 -->
+          <div class="vision-card service-card">
+            <img src="images/data.svg" alt="data image">
+            <div class="card-info">
+              <p class="card-title">Data Handling</p>
+              <hr class="white-underline">
+              <p class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci recusandae officia tempore minima facilis qui totam ducimus laborum molestias? Minus!</p>
+            </div>
+
+          </div>
+        </div>
+    </section>
+
+    <!-- This is the gray section that has an absolute property so we can move it up a little -->
+
+    <section class="gray-section">
+      <hr class="orange-thick-line">
+      <hr class="vertical-orange-line">
+      <img class="shape-2" src="images/shape-2.svg" alt="">
+      <div class="section-header text-center">
+        <div class="section-title">
+          <h1 class="title_text white-text title">Our <span class="orange_text">Services</span> </h1>
+          <hr class="title-underline my-3">
+          <p class="sub-title-text">We work with you</p>
+        </div>
+      </div>
+
+      <div class="services d-flex flex-row">
+        
+        <!-- so I need to have 6 different services -->
+        <div class="service-item d-flex">
+          <p class="service-name">Data Analysis</p>
+          <img src="images/arrow-image.svg" alt="" class="service-image">
+        </div>
+
+        <div class="service-item d-flex">
+          <p class="service-name">Data Visualization</p>
+          <img src="images/arrow-image.svg" alt="" class="service-image">
+        </div>
+
+        <div class="service-item d-flex">
+          <p class="service-name">Product Design</p>
+          <img src="images/arrow-image.svg" alt="" class="service-image">
+        </div>
+
+        <div class="d-flex service-item">
+          <p class="service-name">Web Design</p>
+          <img src="images/arrow-image.svg" alt="" class="service-image">
+        </div>
+
+        <div class="service-item d-flex">
+          <p class="service-name">UI/UX</p>
+          <img src="images/arrow-image.svg" alt="" class="service-image">
+        </div>
+
+        <div class="service-item d-flex">
+          <p class="service-name">Social Media</p>
+          <img src="images/arrow-image.svg" alt="" class="service-image">
+        </div>
+
+      </div>
+    </section>
+</body>
+</html>
