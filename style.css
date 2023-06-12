@@ -131,11 +131,16 @@ section {
     z-index: -1;
 }
 
+
+
+
 /* service containers  */
 
 .service-card-container {
     width: 90%;
     margin: 50px auto;
+    position: relative;
+    bottom: -100px;
 }
 
 .service-card {
@@ -147,12 +152,12 @@ section {
     cursor: pointer;
     border: 1px solid #000000;
     transition: 0.5s;
-    
     z-index: 2;
 }
 
 .service-card:hover {
     background: #E95020;
+    transform: scale(1.01);
 }
 
 .vision-image-card {
@@ -192,13 +197,15 @@ section {
 /* Gray section */
 
 .gray-section {
-    background: #1B1B1B;
     position: relative;
+    background: #1B1B1B;
     width: 92%;
     margin: auto;
     padding: 20px;
-    top: -110px;
-    z-index: 0;
+    margin-bottom: 0;
+    padding-bottom: 100px;
+    /* top: -110px; */
+    z-index: 1;
 }
 
 .orange-thick-line {
@@ -574,7 +581,8 @@ section {
     border-radius: 10px;
     border: 1px solid #E95020;
     position: relative;
-    bottom: -100px;
+    bottom: 80px;
+    z-index: 3;
 }
 
 .book-question {
@@ -598,8 +606,91 @@ section {
 /* footer section */
 
 .footer {
-    position: absolute;
-    width: 1513px;
-    height: 442.41px;
     background: #E95020;
+    width: 100%;
+    padding-top: 100px ;
+    padding-bottom: 50px;
+    z-index: 2;
 }
+
+.footer-sub {
+    width: 85%;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Montserrat;
+    color: black;
+
+}
+
+.footer-header{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.list-items p a {
+    color: black !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.special-list-item img {
+    margin-right: 10px
+}
+
+.contact {
+    margin-left: 5px;
+    padding-bottom: 0;
+}
+
+.social-media-links {
+    width: 65%;
+    margin: auto;
+}
+
+.social-media-imgs {
+    width: 30px;
+    height: 30px;
+    background: #000000;
+    border-radius: 50%;
+}
+
+.copyright {
+    color: white;
+    width: 95%;
+    margin: auto;
+}
+
+.copyright-div {
+    margin: 25px auto;
+}
+
+.copyright-div p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+
+}
+
+/* media screens styling */
+
+@media (max-width: 992px) {
+    .right-container {
+        display: none !important;
+    }
+    .left-container {
+        width: 90%;
+    }
+    .banner-text {
+        font-size: 60px;
+    }
+
+    .wavvy-line {
+        width: 90%;
+    }
+  }
