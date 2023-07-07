@@ -143,7 +143,6 @@ section {
     bottom: -100px;
 }
 
-
 .service-card {
     background: #1B1B1B;
     margin: auto 10px;
@@ -349,21 +348,13 @@ section {
 .service-images-container {
     width: 90%;
     margin: auto;
-    border-radius: 5px;  
+    border-radius: 5px;    
 }
 
 .service-div {
     position: relative;
     height: 100%;
     cursor: pointer;
-    width: 85%;
-    margin: auto;
-    margin-bottom: 5px;
-    margin-right: 5px;
-}
-
-.service-div img {
-    width: 100%;
 }
 
 .overlay {
@@ -702,95 +693,4 @@ section {
     .wavvy-line {
         width: 90%;
     }
-  }
-
-
-  @media (max-width: 1300px){
-      .service-card-container {
-          width: 100%;
-          margin: auto;
-          justify-content: space-around;
-      } 
-  }
-  
-  @media (max-width: 1200px) {
-    
-    .card-info {
-        margin-top: 85px;
-    }
-
-    .card-desc {
-        font-size: 18px;
-    }
-    .testimony-text {
-        width: 90%;
-        margin-left: 15px;
-        font-size: 14px;
-    }
-
-    .about-text {
-        font-size: 18px;
-        line-height: 29px;
-        margin-bottom: 50px;
-    }
-
-  }
-
-  @media (max-width: 992px) {
-
-    .service-card-container {
-        bottom: -25px;
-    }
-
-    .gray-section {
-        top: 15px;
-    }
-    
-   .service-card {
-       width: 100%;
-       margin-bottom: 10px;
-   }
-
-   .card-desc {
-    font-size: 20px;
-    }
-
-    .orange-thick-line {
-        display: none;
-    }
-
-    .service-links li a {
-        font-size: 15px;
-    }
-
-    .testimony-card {
-        margin: 5px auto;
-    }
-
-    .orange-div {
-        display: none;
-    }
-
-    .about-image-container {
-        margin: auto;
-        width: 100%;
-    }
-
-    .about-us-desc {
-        margin-top: 15px;
-        width: 100%;
-    }
-    .about-text {
-        text-align: justify;
-        padding: 20px;
-        border-radius: 5px;
-        transition: .5s;
-    }
-
-    .about-text:hover {
-        box-shadow: 1px 1px 1px #ef805e;
-    }
-
-    
-
   }
