@@ -671,15 +671,37 @@ section {
 
 /* media screens styling */
 
+@media (max-width: 1400px) {
+  .banner-text {
+    font-size: 70px;
+  }
+  .summary-text {
+    font-size: 18px;
+  }
+}
+
 @media (max-width: 1300px) {
   .service-card-container {
     width: 100%;
     margin: auto;
     justify-content: space-around;
   }
+
+  .orange-thick-line {
+    top: 63px;
+  }
 }
 
 @media (max-width: 1200px) {
+
+  .banner-text {
+    font-size: 50px;
+  }
+
+  .summary-text {
+    font-size: 17px;
+  }
+
   .card-info {
     margin-top: 85px;
   }
@@ -770,7 +792,3 @@ section {
 }
 
 
-.navbar-toggler {
-    background: #f83d04;
-    color: white;
-}
