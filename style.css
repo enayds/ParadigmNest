@@ -24,7 +24,7 @@ a {
   color: white;
 }
 
-.title_text {
+.title_text, .brand-title {
   font-family: "Montserrat";
   font-weight: 800;
   font-size: 32px;
@@ -793,7 +793,7 @@ section {
   }
 
   .slides-link {
-    margin: auto -5px;
+    margin: auto -15px;
   }
 }
 
@@ -814,6 +814,17 @@ section {
   .view-btn {
     width: 20%;
   }
+}
+
+@media (max-width: 500px) {
+  .brand-title {
+    font-size: 25px;
+  }
+}
+
+.navbar-toggler {
+  background: #f83d04;
+  color: white;
 }
 
 
