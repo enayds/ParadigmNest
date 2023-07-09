@@ -687,9 +687,7 @@ section {
     justify-content: space-around;
   }
 
-  .orange-thick-line {
-    top: 63px;
-  }
+
 }
 
 @media (max-width: 1200px) {
@@ -719,6 +717,10 @@ section {
     font-size: 18px;
     line-height: 29px;
     margin-bottom: 50px;
+  }
+
+  .service-card-container {
+    bottom: -48px;
   }
 }
 
@@ -788,6 +790,29 @@ section {
 
   .about-text:hover {
     box-shadow: 1px 1px 1px #ef805e;
+  }
+
+  .slides-link {
+    margin: auto -5px;
+  }
+}
+
+@media (max-width: 850px) {
+  .shape-2 {
+    width: 150.77px;
+    height: 140.77px;
+  }
+
+  .title_text {
+    font-size: 35px;
+  }
+
+  .sub-title-summary {
+    font-size: 20px;
+  }
+
+  .view-btn {
+    width: 20%;
   }
 }
 
