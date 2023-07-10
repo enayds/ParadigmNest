@@ -816,6 +816,56 @@ section {
   }
 }
 
+@media (max-width: 540px) {
+  .banner-text {
+    font-size: 45px;
+  }
+  .wavvy-line {
+    left: 0;
+  }
+  .summary-text {
+    font-size: 15px;
+  }
+  .started-btn {
+    font-size: 17px;
+  }
+  .card-title {
+    font-size: 27px;
+  }
+  .card-desc {
+    font-size: 18px;
+  }
+  .about-image {
+    width: 100%;
+  }
+  .sub-title-summary {
+    font-size: 18px;
+    text-align: justify;
+}
+  .shape-2 {
+    width: 90px;
+    height: 90px;
+    top: 150px;
+  }
+  .title-underline {
+    left: -4em;
+  }
+  .view-btn {
+    width: 30%;
+    font-size: 18px;
+  }
+  .slides-link {
+    width: 10px;
+    height: 10px;
+  }
+  .learn-btn {
+    font-size: 18px;
+  }
+  .book-question {
+    font-size: 22px;
+}
+}
+
 @media (max-width: 500px) {
   .brand-title {
     font-size: 25px;
