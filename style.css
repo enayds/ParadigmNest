@@ -872,6 +872,26 @@ section {
   }
 }
 
+@media (max-width: 350px) {
+  .orange-line {
+    width: 20%;
+    margin-top: -71px;
+    margin-left: 142px;
+  }
+  .banner-text {
+    font-size: 35px;
+  }
+  .service-card {
+    width: 90%;
+  }
+  .card-info {
+    margin-top: 50px;
+  }
+  .shape-2 {
+    top: 75px;
+}
+}
+
 .navbar-toggler {
   background: #f83d04;
   color: white;
